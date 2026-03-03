@@ -1,0 +1,33 @@
+# #  编译输出
+*.axf
+*.hex
+*.bin
+*.elf
+*.map
+*.lst
+*.lnp
+*.d
+*.o
+*.a
+
+# #  MDK-ARM 临时文件
+Listings/
+Objects/
+RTE/
+*.uvguix
+*.uvoptx
+*.uvprojx
+
+# #  Qoder 配置（只上传 repowiki）
+.qoder/agents/
+.qoder/skills/
+.qoder/memory/
+.qoder/rules/
+!.qoder/repowiki/
+!.qoder/repowiki/**/*
+
+# #  其他
+*.swp
+*.bak
+Thumbs.db
+.DS_Store
